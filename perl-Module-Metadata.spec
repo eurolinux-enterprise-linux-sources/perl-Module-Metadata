@@ -1,6 +1,6 @@
 Name:		perl-Module-Metadata
 Version:	1.000018
-Release:	1%{?dist}
+Release:	2%{?dist}
 Summary:	Gather package and POD information from perl module files
 License:	GPL+ or Artistic
 Group:		Development/Libraries
@@ -64,6 +64,9 @@ make test TEST_FILES="xt/*.t"
 %{_mandir}/man3/Module::Metadata.3pm*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.000018-2
+- Mass rebuild 2013-12-27
+
 * Wed Sep 11 2013 Paul Howarth <paul@city-fan.org> - 1.000018-1
 - Update to 1.000018
   - Re-release of de-tainting fix without unstated non-core test dependencies
